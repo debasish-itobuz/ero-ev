@@ -1,0 +1,8 @@
+.nav-li {
+    &:hover {
+        background-color: rgb(164, 235, 211);
+        transition: 0.2s ease-in-out;
+        color: var(--black);
+        border-radius: 3px;   
+      }
+}

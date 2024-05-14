@@ -1,0 +1,60 @@
+:root {
+  --green:#00D47E;
+}
+
+.nav-li:hover {
+  background-color: rgb(164, 235, 211);
+  transition: 0.2s ease-in-out;
+  color: var(--black);
+  border-radius: 3px;
+}
+
+@font-face {
+  font-family: "Gilory";
+  font-weight: 400;
+  src: url("../fonts/gilroy/gilroy-medium.ttf");
+}
+@font-face {
+  font-family: "Gilory";
+  font-weight: 700;
+  src: url("../fonts/gilroy/gilroy-bold.ttf");
+}
+.medium {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.banner {
+  background-image: url("../images/banner/car.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80vw;
+  height: 80vh;
+  margin-left: auto;
+}
+.banner-content {
+  background-color: var(--green);
+  top: 14%;
+  left: -20%;
+  width: 20%;
+}
+.banner-content-para {
+  font-size: 22px;
+  line-height: 30px;
+}
+.banner-text {
+  right: 12%;
+  top: 45%;
+  width: 9%;
+  text-align: left;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+body {
+  font-family: "Gilory", serif;
+  font-weight: 400;
+}/*# sourceMappingURL=app.css.map */
