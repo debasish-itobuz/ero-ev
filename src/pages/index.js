@@ -1,13 +1,14 @@
 import * as React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
-import "../scss/app.css";
+import "../scss/_app.scss"
 import Navbar from "../components/Navbar";
+import Home from "./home";
+
 
 const IndexPage = () => {
   return (
     <main>
       <Navbar />
+      <Home/>
     </main>
 
   );

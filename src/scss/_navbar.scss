@@ -1,0 +1,29 @@
+.navbar {
+  position: absolute;
+  top: 0px;
+  background-color: white;
+  width: 100%;
+
+  li {
+    &:hover {
+      background-color: rgb(164, 221, 200);
+      transition: 0.2s ease-in-out;
+      color: var(--black);
+      border-radius: 3px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    position: unset;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
