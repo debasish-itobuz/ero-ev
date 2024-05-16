@@ -1,0 +1,60 @@
+.charge {
+    &-heading {
+        font-size: 32px;
+
+        @media (min-width:768px) {
+            font-size: 48px;
+        }
+    }
+
+    &-content {
+        &-img {
+            img {
+                max-width: 600px;
+            }
+        }
+
+        &-info {
+            max-width: 18rem;
+
+            &-text {
+                font-size: 16px;
+            }
+
+            &-sub-text {
+                font-size: 24px;
+
+                @media (min-width:768px) {
+                    font-size: 44px;
+                    line-height: 50px;
+                    margin-top: 2rem;
+                    margin-bottom: 4rem;
+                }
+
+                span {
+                    color: var(--deep-green);
+                }
+            }
+
+            &-data {
+                &-link {
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    &-data {
+        &-step {
+            bottom: 0;
+            right: 2rem;
+
+            &-text {
+                color: dimgray;
+            }
+        }
+    }
+}

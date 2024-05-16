@@ -11,7 +11,7 @@ function Navbar() {
     };
     
     return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg screenSize">
         <div className="container">
             <a className="navbar-brand" href="#"><img src={logo} alt="logo" height="28px" width="146px" /></a>
             <button className="navbar-toggler bars" type="button" onClick={toggleMenu}>
