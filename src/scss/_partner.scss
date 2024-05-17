@@ -1,0 +1,80 @@
+.partner {
+    &-content {
+        &-heading {
+            font-size: 32px;
+
+            @media (min-width:768px) {
+                font-size: 40px;
+            }
+
+            @media (min-width:1024px) {
+                font-size: 48px;
+            }
+        }
+
+        &-para {
+            font-size: 22px;
+            line-height: 28px;
+
+            @media (min-width:768px) {
+                font-size: 28px;
+            }
+
+            @media (min-width:1024px) {
+                font-size: 34px;
+            }
+        }
+
+        &-sub-para {
+            font-size: 16px;
+            line-height: 22px;
+
+            @media (min-width:768px) {
+                font-size: 18px;
+            }
+
+            @media (min-width:1024px) {
+                font-size: 20px;
+            }
+        }
+
+    }
+
+    &-info {
+            &-logo{
+                background-color: var(--green);
+                height: 230px;
+            }
+
+
+        &-data {
+
+            &-title {
+                font-size: 16px;
+                line-height: 22px;
+
+                @media (min-width:768px) {
+                    font-size: 18px;
+                }
+
+                @media (min-width:1024px) {
+                    font-size: 20px;
+                }
+            }
+
+            &-content {
+                font-size: 22px;
+                line-height: 28px;
+
+                @media (min-width:768px) {
+                    font-size: 27px;
+                }
+
+                @media (min-width:1024px) {
+                    font-size: 34px;
+                }
+            }
+        }
+    }
+
+}
