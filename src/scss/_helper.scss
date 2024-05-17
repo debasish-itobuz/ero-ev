@@ -1,10 +1,41 @@
 :root {
     --green: #00D47E;
-    --deep-green :#199753;
+    --deep-green: #199753;
     --blue: #1A5ABB;
 }
 
 .screenSize {
     max-width: 1620px;
     margin: auto;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.hero-button {
+    background-color: var(--blue);
+    color: white;
+    bottom: 0;
+    left: 50%;
+    translate: -50%;
+    text-wrap: nowrap;
+
+    &:hover {
+        text-decoration: underline;
+        background-color: #a4c2f6;
+        color: black;
+        transition: .2s ease-in-out;
+
+        img {
+            filter: invert(100%);
+            transition: 0.2s ease-in-out;
+        }
+    }
+
+    @media (min-width:768px) {
+        left: unset;
+        right: 0;
+        translate: 50%;
+    }
 }

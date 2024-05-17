@@ -3,6 +3,10 @@
         font-size: 32px;
 
         @media (min-width:768px) {
+            font-size: 40px;
+        }
+
+        @media (min-width:1024px) {
             font-size: 48px;
         }
     }
@@ -10,12 +14,27 @@
     &-content {
         &-img {
             img {
-                max-width: 600px;
+                max-width: 630px;
+            }
+
+            &-circle {
+                top: 5rem;
+                right: -5rem;
+
+                &-num {
+                    top: 2.5rem;
+                    left: 3.2rem;
+                    font-size: 4rem;
+                }
             }
         }
 
         &-info {
             max-width: 18rem;
+
+            @media (min-width:1024px) {
+                margin-left: 5rem;
+            }
 
             &-text {
                 font-size: 16px;
@@ -25,10 +44,13 @@
                 font-size: 24px;
 
                 @media (min-width:768px) {
-                    font-size: 44px;
+                    font-size: 32px;
+                    line-height: 40px;
+                }
+
+                @media (min-width:1024px) {
+                    font-size: 40px;
                     line-height: 50px;
-                    margin-top: 2rem;
-                    margin-bottom: 4rem;
                 }
 
                 span {
@@ -50,10 +72,17 @@
     &-data {
         &-step {
             bottom: 0;
-            right: 2rem;
+            right: 0;
 
             &-text {
                 color: dimgray;
+            }
+
+            img {
+                @media (min-width:1440px) {
+                    height: 256px;
+                    width: 251px;
+                }
             }
         }
     }

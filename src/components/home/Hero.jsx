@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className='screenSize'>
       <div className='d-flex flex-column justify-content-center banner'>
-        <h1 className='mx-auto banner-heading'>We Bring Charging Stations to You. </h1>
+        <h1 className='mx-auto mt-lg-4 banner-heading'>We Bring Charging Stations to You. </h1>
         <div className='banner-content text-center position-relative d-flex flex-column flex-lg-row justify-content-center '>
           <div className='banner-content-img'>
             <img src={car} alt="car" />
@@ -26,20 +26,19 @@ const Hero = () => {
             <div className='banner-content-logo bg-black text-white py-3 px-5 d-flex align-items-center'>
               <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2' role="button">
                 <DiAndroid className='fs-1 banner-content-logo-details-icon' />
-                <p className='m-0 p-0 border-bottom'>For android</p>
+                <p className='m-0 p-0 banner-content-logo-details-text'>For android</p>
               </div>
               <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2' role="button">
                 <IoLogoApple className='fs-1 banner-content-logo-details-icon' />
-                <p className='m-0 p-0 border-bottom'>For ios</p>
+                <p className='m-0 p-0 banner-content-logo-details-text'>For ios</p>
               </div>
             </div>
-            <div className='banner-content-arrow text-white d-flex justify-content-between align-items-center gap-5 px-5 py-4'>
-              <p className='m-0 p-0 text-decoration-underline text-start fs-5' role="button">Explore more.</p>
+            <div className='banner-content-arrow d-flex justify-content-between align-items-center gap-5 px-5 py-4'>
+              <p className='m-0 p-0 text-start fs-5 banner-content-arrow-text' role="button">Explore more.</p>
               <img src={explore} alt="explore-arrow" height='59px' width="65px" role="button" />
             </div>
           </div>
         </div>
-
         <div className='row justify-content-around banner-info p-3'>
           <div className=' col-12 col-md-6 p-1 p-md-3 d-flex gap-3 gap-md-5 align-items-center  banner-info-data'>
             <div className='banner-info-data-img'>
@@ -54,7 +53,6 @@ const Hero = () => {
             <a href="#" className='banner-info-details-sub-para'>See How We Do It</a>
           </div>
         </div>
-
       </div>
     </div>
   )
