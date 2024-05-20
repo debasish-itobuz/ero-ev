@@ -1,4 +1,10 @@
 .charge {
+    margin-top: 1rem;
+
+    @media (min-width:1024px) {
+        margin-top: 2rem;
+    }
+
     &-heading {
         font-size: 32px;
 

@@ -7,7 +7,7 @@ import Button from '../Button'
 
 const Charge = () => {
     return (
-        <div className='screenSize mt-2 mt-lg-4 charge p-2 p-md-3 '>
+        <div className='screenSize charge p-2 p-md-3 '>
             <h2 className='mb-3 mb-lg-5 charge-heading text-center '>Charge Anywhere, Anytime</h2>
             <div className='charge-content row container-lg m-auto'>
                 <div className='charge-content-img col-12 col-md-6 position-relative '>

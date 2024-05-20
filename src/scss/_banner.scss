@@ -1,10 +1,4 @@
 .banner {
-  margin-top: 4rem;
-
-  @media (min-width:992px) {
-    margin-top: 0;
-  }
-
   &-heading {
     font-size: 36px;
     line-height: 58px;
@@ -164,8 +158,9 @@
       }
 
       @media (min-width:1024px) {
+        gap: 1rem;
         position: absolute;
-        width: 19rem;
+        width: 14rem;
         justify-content: space-between;
         flex-direction: row;
         bottom: 2.5rem;
@@ -175,10 +170,6 @@
       @media (min-width:1440px) {
         bottom: 5.5rem;
         left: 20rem;
-      }
-
-      @media (min-width:1600px) {
-        bottom: 9.5rem;
       }
 
       &-details {
