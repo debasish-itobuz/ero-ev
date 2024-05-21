@@ -5,43 +5,43 @@ import { Link } from 'gatsby';
 function Navbar() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    
+
     const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+        setIsMenuOpen(!isMenuOpen);
     };
-    
+
     return (
-    <nav className="navbar navbar-expand-lg screenSize">
-        <div className="container">
-            <a className="navbar-brand" href="#"><img src={logo} alt="logo" height="28px" width="146px" /></a>
-            <button className="navbar-toggler bars" type="button" onClick={toggleMenu}>
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : '' }`} id= "navbarSupportedContent">
-                <ul className="navbar-nav ms-auto gap-2 gap-lg-5 mb-2 mb-lg-0 mt-2 mt-lg-0">
-                    <li className="nav-item nav-li ps-3 ps-lg-0">
-                        <Link to="/" className="nav-link">Home</Link>
-                    </li>
-                    <li className="nav-item nav-li ps-3 ps-lg-0">
-                        <a className="nav-link" href="#">About</a>
-                    </li>
-                    <li className="nav-item nav-li ps-3 ps-lg-0">
-                        <a className="nav-link" href="#">Product</a>
-                    </li>
-                    <li className="nav-item nav-li ps-3 ps-lg-0">
-                        <a className="nav-link" href="#">Contact</a>
-                    </li>
-                    <li className="nav-item nav-li ps-3 ps-lg-0">
-                        <a className="nav-link" href="#">Press Release</a>
-                    </li>
-                    <li className="nav-item nav-li ps-3 ps-lg-0">
-                        <a className="nav-link" href="#">FAQ</a>
-                    </li>
-                </ul>
+        <nav className="navbar navbar-expand-lg screenSize">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="#"><img src={logo} alt="logo" height="28px" width="146px" /></a>
+                <button className="navbar-toggler bars" type="button" onClick={toggleMenu}>
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarSupportedContent">
+                    <ul className="navbar-nav ms-auto gap-2 gap-lg-5 mb-2 mb-lg-0 mt-2 mt-lg-0">
+                        <li className="nav-item nav-li ps-3 ps-lg-0">
+                            <Link to="/" className="nav-link">Home</Link>
+                        </li>
+                        <li className="nav-item nav-li ps-3 ps-lg-0">
+                            <a className="nav-link" href="#">About</a>
+                        </li>
+                        <li className="nav-item nav-li ps-3 ps-lg-0">
+                            <a className="nav-link" href="#">Product</a>
+                        </li>
+                        <li className="nav-item nav-li ps-3 ps-lg-0">
+                            <a className="nav-link" href="#">Contact</a>
+                        </li>
+                        <li className="nav-item nav-li ps-3 ps-lg-0">
+                            <a className="nav-link" href="#">Press Release</a>
+                        </li>
+                        <li className="nav-item nav-li ps-3 ps-lg-0">
+                            <a className="nav-link" href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     );
-    }
+}
 
 export default Navbar

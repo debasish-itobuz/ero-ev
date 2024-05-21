@@ -9,9 +9,9 @@ const Charge = () => {
     return (
         <div className='screenSize charge p-2 p-md-3 '>
             <h2 className='mb-3 mb-lg-5 charge-heading text-center '>Charge Anywhere, Anytime</h2>
-            <div className='charge-content row container-lg m-auto'>
+            <div className='charge-content row m-0 p-0 '>
                 <div className='charge-content-img col-12 col-md-6 position-relative '>
-                    <div>
+                    <div className='charge-content-img-girl'>
                         <img src={girl} alt="girl" width="100%" height="100%" />
                     </div>
                     <div className=' position-absolute charge-content-img-circle d-none d-lg-block'>
@@ -25,21 +25,21 @@ const Charge = () => {
                 <div className='col-12 col-md-6 ps-md-5 pt-3 pt-md-0 pt-lg-5 position-relative charge-data '>
                     <div className='charge-content-info'>
                         <p className='charge-content-info-text'>It's simple and easy.</p>
-                        <p className='charge-content-info-sub-text'>Get the <span>EroEV App.</span></p>
-                        <div className='charge-content-info-data d-flex gap-2 flex-column '>
-                            <div className='d-flex gap-2 align-items-center charge-content-info-data-link'>
+                        <h4 className='charge-content-info-sub-text'>Get the <span>EroEV App.</span></h4>
+                        <ul className='charge-content-info-data d-flex gap-2 flex-column m-0 p-0'>
+                            <li className='d-flex gap-2 align-items-center charge-content-info-data-link'>
                                 <img src={arrow} alt="arrow" height="16px" width="18px" role='button' />
                                 <a href="#">Download the EroEV Application for Android or iOS.</a>
-                            </div>
-                            <div className='d-flex gap-2 align-items-center charge-content-info-data-link'>
+                            </li>
+                            <li className='d-flex gap-2 align-items-center charge-content-info-data-link'>
                                 <img src={arrow} alt="arrow" height="16px" width="18px" role='button' />
                                 <a href="#">Create your profile.</a>
-                            </div>
-                            <div className='d-flex gap-2 align-items-center charge-content-info-data-link'>
+                            </li>
+                            <li className='d-flex gap-2 align-items-center charge-content-info-data-link'>
                                 <img src={arrow} alt="arrow" height="16px" width="18px" role='button' />
                                 <a href="#">Add your vehicle details.</a>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                     <div className='d-none d-md-block position-absolute charge-data-step'>
                         <p className='charge-data-step-text p-0 m-0 pb-1'>Up Next Step</p>

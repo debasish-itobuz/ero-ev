@@ -3,7 +3,6 @@ import "../scss/_app.scss"
 import Navbar from "../components/Navbar";
 import Home from "./home";
 
-
 const IndexPage = () => {
   return (
     <main>

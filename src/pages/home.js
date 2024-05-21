@@ -6,7 +6,6 @@ import Partners from '../components/home/Partners'
 import People from '../components/home/People'
 import Customer from '../components/home/Customer'
 
-
 const home = () => {
   return (
    <>

@@ -2,6 +2,7 @@
     --green: #00D47E;
     --deep-green: #199753;
     --blue: #1A5ABB;
+    --black:#2A2A29;
 }
 
 .screenSize {
@@ -37,5 +38,10 @@
         left: unset;
         right: 0;
         translate: 50%;
+    }
+
+    @media (min-width:1700px) {
+       
+        translate: 100%;
     }
 }

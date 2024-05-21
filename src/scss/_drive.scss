@@ -15,5 +15,32 @@
         @media (min-width:1024px) {
             font-size: 48px;
         }
+
+        @media (min-width:1440px) {
+            font-size: 56px;
+        }
+
+        @media (min-width:1600px) {
+            font-size: 80px;
+        }
+    }
+}
+
+.play {
+    @media (min-width:1024px) {
+        height: 180px;
+        width: 180px;
+    }
+}
+
+.playModal {
+    width: 18rem;
+
+    @media (min-width:576px) {
+        width: 30rem;
+    }
+
+    @media (min-width:768px) {
+        width: 43rem;
     }
 }
