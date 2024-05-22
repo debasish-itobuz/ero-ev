@@ -10,12 +10,12 @@ const Hero = () => {
   return (
     <div className='screenSize'>
       <div className='d-flex flex-column justify-content-center banner mt-5 mt-lg-4'>
-        <h1 className='mx-auto banner-heading mt-3 text-center text-lg-start'>We Bring Charging Stations to You. </h1>
+        <h1 className='mx-auto banner-heading mt-4 text-center text-lg-start'>We Bring Charging Stations to You. </h1>
         <div className='banner-content text-center position-relative d-flex flex-column flex-lg-row justify-content-center '>
           <div className='banner-content-img'>
             <img src={car} alt="car" height='100%' />
           </div>
-          <p className='banner-content-text'>Wherever you are. We provide service.</p>
+          <p className='banner-content-text text-center text-md-start'>Wherever you are. We provide service.</p>
           <div className='d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-5 mt-3 mt-md-4'>
             <div className='banner-content-info text-start'>
               <p className='banner-content-info-para p-0 p-md-2 '>A future with worry-free</p>
