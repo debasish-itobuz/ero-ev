@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
             <div className='banner-content-arrow d-flex justify-content-between align-items-center gap-5 px-5 py-4'>
               <p className='m-0 p-0 text-start fs-5 banner-content-arrow-text'>Explore more.</p>
-              <img src={explore} alt="explore-arrow" height='59px' width="65px" />
+              <img src={explore} alt="explore-arrow" height='45px' width="65px" />
             </div>
           </div>
         </div>

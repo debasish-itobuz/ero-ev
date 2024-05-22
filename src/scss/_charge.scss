@@ -79,6 +79,12 @@
             &-text {
                 color: dimgray;
                 font-size: 16px;
+                padding: 0;
+                margin: 0;
+
+                @media (min-width:768px) {
+                    margin-bottom: 0.5rem;
+                }
 
                 @media (min-width:1440px) {
                     font-size: 20px;
@@ -108,7 +114,6 @@
                 @media (min-width:1600px) {
                     font-size: 70px;
                     line-height: 78px;
-                    margin-bottom: 4rem;
                     margin-top: 3rem;
                     margin-bottom: 5rem;
                 }
