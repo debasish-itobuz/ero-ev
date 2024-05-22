@@ -5,6 +5,7 @@ import Charge from '../components/home/Charge'
 import Partners from '../components/home/Partners'
 import People from '../components/home/People'
 import Customer from '../components/home/Customer'
+import Hear from '../components/home/Hear'
 
 const home = () => {
   return (
@@ -15,6 +16,7 @@ const home = () => {
       <Partners/>
       <People/>
       <Customer/>
+      <Hear/>
    </>
   )
 }

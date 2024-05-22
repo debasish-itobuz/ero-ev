@@ -7,9 +7,8 @@ const IndexPage = () => {
   return (
     <main>
       <Navbar />
-      <Home/>
+      <Home />
     </main>
-
   );
 };
 

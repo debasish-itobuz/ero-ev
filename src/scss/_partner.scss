@@ -1,21 +1,34 @@
 .partner {
     margin-top: 1rem;
 
-    @media (min-width:1024px) {
+    @media (min-width: 1024px) {
         margin-top: 3rem;
+    }
+    
+    @media (min-width:1440px) {
+        margin-top: 5rem;
     }
 
     &-content {
         &-heading {
             font-size: 32px;
 
-            @media (min-width:768px) {
+            @media (min-width: 768px) {
                 font-size: 40px;
             }
 
-            @media (min-width:1024px) {
+            @media (min-width: 1024px) {
                 font-size: 48px;
                 width: 14rem;
+            }
+
+            @media (min-width: 1440px) {
+                font-size: 56px;
+            }
+
+            @media (min-width: 1600px) {
+                font-size: 80px;
+                width: 20rem;
             }
         }
 
@@ -23,16 +36,21 @@
             font-size: 22px;
             line-height: 28px;
 
-            @media (min-width:768px) {
+            @media (min-width: 768px) {
                 font-size: 27px;
             }
 
-            @media (min-width:1024px) {
+            @media (min-width: 1024px) {
+                margin-top: 3rem;
+                margin-bottom: 1.5rem;
+                font-size: 32px;
+                line-height: 38px;
+                width: 16rem;
+            }
+
+            @media (min-width: 1440px) {
                 margin-top: 5rem;
                 margin-bottom: 2rem;
-                font-size: 32px;
-                line-height: 34px;
-                width: 17rem;
             }
         }
 
@@ -40,8 +58,19 @@
             font-size: 14px;
             line-height: 22px;
 
-            @media (min-width:1024px) {
-                width: 19rem;
+            @media (min-width: 768px) {
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 18rem;
+            }
+
+            @media (min-width: 1440px) {
+                font-size: 18px;
+                line-height: 26px;
+                width: 23rem;
             }
         }
     }
@@ -49,24 +78,49 @@
     &-info {
         &-logo {
             background-color: var(--green);
-            height: 230px;
+            height: 180px;
+
+            @media (min-width: 560px) {
+                height: 210px;
+            }
+
+            @media (min-width: 768px) {
+                height: 270px;
+            }
+
+            @media (min-width: 1024px) {
+                height: 300px;
+            }
+
+            &-img {
+                img {
+                    @media (min-width: 1024px) {
+                        height: 130px;
+                        width: 200px;
+                    }
+                }
+            }
         }
 
         &-data {
             &-title {
                 font-size: 16px;
+
+                @media (min-width: 1024px) {
+                    font-size: 18px;
+                }
             }
 
             &-content {
                 font-size: 22px;
                 line-height: 28px;
 
-                @media (min-width:768px) {
+                @media (min-width: 768px) {
                     font-size: 26px;
                 }
 
-                @media (min-width:1024px) {
-                    font-size: 31px;
+                @media (min-width: 1024px) {
+                    font-size: 28px;
                     line-height: 34px;
                     width: 16rem;
                 }

@@ -1,4 +1,5 @@
-.people {
+.hear {
+    width: 95%;
     margin-top: 1rem;
 
     @media (min-width: 768px) {
@@ -8,8 +9,9 @@
     @media (min-width: 1024px) {
         margin-top: 3rem;
     }
+
     @media (min-width:1440px) {
-        margin-top: 4rem;
+        margin-top: 5rem;
     }
 
     &-content {
@@ -19,28 +21,31 @@
             margin-bottom: 5rem;
         }
 
+        @media (min-width: 1440px) {
+            margin-bottom: 7rem;
+        }
+
         &-heading {
             font-size: 32px;
-            width: 100%;
 
             @media (min-width: 768px) {
-                font-size: 46px;
-                width: 16rem;
+                font-size: 40px;
+                width: 18rem;
             }
 
             @media (min-width: 1024px) {
-                font-size: 60px;
-                width: 21rem;
+                font-size: 48px;
+                width: 22rem;
             }
 
             @media (min-width: 1440px) {
-                font-size: 90px;
-                width: 31rem;
+                font-size: 56px;
+                width: 25rem;
             }
 
             @media (min-width: 1600px) {
-                font-size: 120px;
-                width: 42rem;
+                font-size: 80px;
+                width: 36rem;
             }
         }
 
@@ -74,31 +79,35 @@
         }
     }
 
-    &-img {
-        &-data {
-            &:hover {
-                cursor: pointer;
-                transition: 0.2s ease-in-out;
-                color: #199753;
-                cursor: pointer;
-
-                img {
-                    filter: invert(59%) sepia(40%) saturate(4810%) hue-rotate(131deg) brightness(93%) contrast(80%);
-                }
-            }
-        }
-        img {
-            @media (min-width: 1400px) {
-                height: 70px;
-                width: 70px;
-            }
-        }
-
+    &-info {
         &-text {
-            font-size: 16px;
+            font-size: 18px;
+            line-height: 22px;
+            color: dimgray;
+            margin: 0;
+
+            @media (min-width: 768px) {
+                margin-left: 3rem;
+                width: 18rem;
+            }
 
             @media (min-width: 1024px) {
-                font-size: 20px;
+                font-size: 22px;
+                line-height: 30px;
+                margin-left: 5rem;
+                width: 24rem;
+            }
+
+            @media (min-width: 1440px) {
+                margin-left: 12rem;
+                width: 28rem;
+            }
+
+            @media (min-width: 1600px) {
+                font-size: 30px;
+                line-height: 40px;
+                margin-left: 10rem;
+                width: 36rem;
             }
         }
     }

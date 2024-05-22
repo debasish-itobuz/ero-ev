@@ -8,7 +8,7 @@ import Button from '../Button'
 const Charge = () => {
     return (
         <div className='screenSize charge p-2 p-md-3 '>
-            <h2 className='mb-3 mb-lg-5 charge-heading text-center '>Charge Anywhere, Anytime</h2>
+            <h2 className='mb-3 mb-lg-5 charge-heading text-center'>Charge Anywhere, Anytime</h2>
             <div className='charge-content row m-0 p-0 '>
                 <div className='charge-content-img col-12 col-md-6 position-relative '>
                     <div className='charge-content-img-girl'>
@@ -22,7 +22,7 @@ const Charge = () => {
                     </div>
                     <Button title={"Next Step"} />
                 </div>
-                <div className='col-12 col-md-6 ps-md-5 pt-3 pt-md-0 pt-lg-5 position-relative charge-data '>
+                <div className='col-12 col-md-6 ps-md-5 pt-3 pt-md-0 pt-lg-5 position-relative charge-data'>
                     <div className='charge-content-info'>
                         <p className='charge-content-info-text'>It's simple and easy.</p>
                         <h4 className='charge-content-info-sub-text'>Get the <span>EroEV App.</span></h4>

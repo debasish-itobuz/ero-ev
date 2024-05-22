@@ -39,14 +39,14 @@ const People = () => {
                     Why People Love Us.
                 </h2>
             </div>
-            <div className="row justify-content-center justify-content-md-evenly  text-center">
+            <div className="row justify-content-center justify-content-md-evenly text-center people-img">
                 {data.map((item, index) => (
                     <div
-                        className={`col-6 col-md-2 d-flex flex-column gap-2 align-items-center border-2   ${index === 0 ? "" : window.screen.width < 768 ? "" : "border-start"
+                        className={`col-6 col-md-2 d-flex flex-column gap-2 align-items-center border-2 people-img-data ${index === 0 ? "" : window.screen.width < 768 ? "" : "border-start"
                             }`}
                     >
-                        <img src={item.image} alt={item.title} height="70px" width="70px" />
-                        <p>{item.title}</p>
+                        <img src={item.image} alt={item.title} height="50px" width="50px" />
+                        <p className="people-img-text ">{item.title}</p>
                     </div>
                 ))}
             </div>

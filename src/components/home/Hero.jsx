@@ -26,7 +26,7 @@ const Hero = () => {
             <div className='banner-content-logo bg-black text-white py-3 px-4 d-flex align-items-center'>
               <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2' role="button">
                 <DiAndroid className='fs-1 banner-content-logo-details-icon' />
-                <p className='m-0 p-0 banner-content-logo-details-text text-nowrap '>For android</p>
+                <p className='m-0 p-0 banner-content-logo-details-text text-nowrap'>For android</p>
               </div>
               <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2' role="button">
                 <IoLogoApple className='fs-1 banner-content-logo-details-icon' />
@@ -34,8 +34,8 @@ const Hero = () => {
               </div>
             </div>
             <div className='banner-content-arrow d-flex justify-content-between align-items-center gap-5 px-5 py-4'>
-              <p className='m-0 p-0 text-start fs-5 banner-content-arrow-text' >Explore more.</p>
-              <img src={explore} alt="explore-arrow" height='59px' width="65px"  />
+              <p className='m-0 p-0 text-start fs-5 banner-content-arrow-text'>Explore more.</p>
+              <img src={explore} alt="explore-arrow" height='59px' width="65px" />
             </div>
           </div>
         </div>

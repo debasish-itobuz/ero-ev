@@ -5,22 +5,23 @@ import snape from '../../images/partner/snap.png'
 import uber from '../../images/partner/uber.png'
 
 const Partners = () => {
-
     const data = [{
         title: "Creating the change.",
         content: "a reliable eco-friendly public electric transport service.",
         triangle: triangle,
         logo: snape,
-        width: "200px",
-        height: "101px"
+        width: window.screen.width > 767 ? "260px" : "160px",
+        height: window.screen.width > 767 ? "100px" : "60px",
+        className: ''
     },
     {
         title: "Affordable & sustainable rides.",
         content: "a multinational ride-hailing and transportation network company.",
         triangle: triangle,
         logo: uber,
-        width: "150px",
-        height: "60px"
+        width: window.screen.width > 767 ? "186px" : "120px",
+        height: window.screen.width > 767 ? "65px" : "40px",
+        className: 'pb-0 mt-2'
     }
     ]
     return (
@@ -36,7 +37,7 @@ const Partners = () => {
             <div className='row g-2 mx-auto col-lg-8 '>
                 {
                     data.map((item) =>
-                        <Cabs triangle={item.triangle} logo={item.logo} title={item.title} content={item.content} width={item.width} height={item.height} />
+                        <Cabs imgClass={item.className} triangle={item.triangle} logo={item.logo} title={item.title} content={item.content} width={item.width} height={item.height} />
                     )
                 }
             </div>
