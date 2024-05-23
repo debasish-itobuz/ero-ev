@@ -13,6 +13,10 @@
     padding: 2rem 4rem;
   }
 
+  @media (min-width: 1900px) {
+    padding: 2rem 0;
+  }
+
   li {
     &:hover {
       background-color: rgb(164, 221, 200);

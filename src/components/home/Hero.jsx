@@ -19,22 +19,22 @@ const Hero = () => {
           <div className='d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-5 mt-3 mt-md-4'>
             <div className='banner-content-info text-start'>
               <p className='banner-content-info-para p-0 p-md-2 '>A future with worry-free</p>
-              <h3 className='banner-content-info-heading p-0 p-md-2 m-1 fw-bold'>EV Charging!</h3>
+              <h3 className='banner-content-info-heading p-0 p-md-2  fw-bold'>EV Charging!</h3>
               <p className='banner-content-info-sub-para p-0 p-md-2 m-1 fw-semibold '>Get the App</p>
               <img src={arrow} alt="arrow" className='banner-content-info-sub-para-img m-1' role="button" />
             </div>
-            <div className='banner-content-logo bg-black text-white py-3 px-4 d-flex align-items-center'>
-              <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2' role="button">
-                <DiAndroid className='fs-1 banner-content-logo-details-icon' />
-                <p className='m-0 p-0 banner-content-logo-details-text text-nowrap'>For android</p>
+            <div className='banner-content-logo bg-black text-white py-3 py-xl-5 px-4 d-flex align-items-center justify-content-xl-around '>
+              <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2'>
+                <DiAndroid className='fs-1 banner-content-logo-details-icon'  role="button"/>
+                <p className='m-0 p-0 banner-content-logo-details-text text-nowrap text-decoration-underline'>For android</p>
               </div>
-              <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2' role="button">
-                <IoLogoApple className='fs-1 banner-content-logo-details-icon' />
-                <p className='m-0 p-0 banner-content-logo-details-text text-nowrap'>For ios</p>
+              <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2' >
+                <IoLogoApple className='fs-1 banner-content-logo-details-icon' role="button" />
+                <p className='m-0 p-0 banner-content-logo-details-text text-nowrap text-decoration-underline '>For ios</p>
               </div>
             </div>
             <div className='banner-content-arrow d-flex justify-content-between align-items-center gap-5 px-5 py-4'>
-              <p className='m-0 p-0 text-start fs-5 banner-content-arrow-text'>Explore more.</p>
+              <p className='m-0 p-0  py-xl-3 text-start  banner-content-arrow-text text-decoration-underline'>Explore more.</p>
               <img src={explore} alt="explore-arrow" height='45px' width="65px" />
             </div>
           </div>

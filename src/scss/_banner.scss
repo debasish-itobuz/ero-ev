@@ -9,6 +9,7 @@
       line-height: 70px;
       width: 80%;
     }
+   
 
     @media (min-width:1024px) {
       font-size: 70px;
@@ -26,6 +27,12 @@
       font-size: 130px;
       line-height: 130px;
       width: 71%;
+    }
+
+    @media (min-width:1900px) {
+      font-size: 150px;
+      line-height: 146px;
+      width: 77%;
     }
   }
 
@@ -54,6 +61,12 @@
 
       @media (min-width:1600px) {
         margin-left: 16rem;
+      }
+
+      @media (min-width:1900px) {
+        margin-left: 20rem;
+        width: 1545px;
+        height: 961px;
       }
 
       img {
@@ -92,6 +105,12 @@
         top: 12rem;
       }
 
+      @media (min-width:1900px) {
+        top: 14rem;
+        left: 0rem;
+        width: 22rem;
+      }
+
       &-para {
         font-size: 18px;
         line-height: 25px;
@@ -108,6 +127,24 @@
           font-size: 22px;
           line-height: 30px;
         }
+
+        @media (min-width:1900px) {
+          font-size: 36px;
+          line-height: 45px;
+          margin-top: 2.2rem;
+          margin-bottom: 1.7rem;
+          
+        }
+      }
+
+      &-heading {
+        margin-bottom: 1rem;
+        @media (min-width:1900px) {
+          font-size: 50px;
+          line-height: 46px;
+          margin-bottom: 3rem;
+        }
+
       }
 
       &-sub-para {
@@ -117,8 +154,17 @@
           display: block;
         }
 
+        @media (min-width:1900px) {
+          font-size: 26px;
+          line-height: 28px;
+        }
+
         &-img {
           display: none;
+
+          &:hover {
+            filter: invert(100%);
+          }
 
           @media (min-width:1024px) {
             display: block;
@@ -161,6 +207,14 @@
         font-size: 40px;
         line-height: 44px;
       }
+
+      @media (min-width:1600px) {
+        top: 23rem;
+        right: 1rem;
+        width: 16rem;
+        font-size: 46px;
+        line-height: 48px;
+      }
     }
 
     &-logo {
@@ -200,8 +254,20 @@
         width: 16rem;
       }
 
+      @media (min-width:1900px) {
+        bottom: 11rem;
+        left: 15rem;
+        width: 23rem;
+      }
+
       &-details {
         &-icon {
+
+          @media (min-width:1900px) {
+            height:65px;
+            width: 56px;
+          }
+
 
           &:hover {
             color: var(--green);
@@ -209,8 +275,9 @@
         }
 
         &-text {
-          &:hover {
-            text-decoration: underline;
+          @media (min-width:1900px) {
+            font-size: 20px;
+            line-height: 28px;
           }
         }
       }
@@ -222,6 +289,14 @@
 
       &-text {
         color: white;
+
+        @media (min-width:1900px) {
+          font-size: 26px;
+          line-height: 32px;
+          width: 8rem;
+        }
+
+
       }
 
       &:hover {
@@ -261,6 +336,11 @@
 
       @media (min-width:1600px) {
         right: 20rem;
+      }
+
+      @media (min-width:1900px) {
+        right: 12rem;
+        width: 26.5rem;
       }
 
       img {

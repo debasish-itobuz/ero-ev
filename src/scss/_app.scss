@@ -1,6 +1,7 @@
 body {
   font-family: "Gilory", serif !important;
   font-weight: 400;
+  background-color: #F5F5F6;
 }
 
 @import "bootstrap/scss/bootstrap.scss";
@@ -14,3 +15,4 @@ body {
 @import '_people.scss';
 @import '_customer.scss';
 @import '_hear.scss';
+@import '_footer.scss';
