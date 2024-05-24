@@ -2,12 +2,25 @@
     --green: #00D47E;
     --deep-green: #199753;
     --blue: #1A5ABB;
+    --deep-blue: #144793; 
     --black: #2A2A29;
 }
 
 .screenSize {
     max-width: 1710px;
     margin: auto;
+    // padding-inline: 10px;
+    
+
+    // @media (min-width:768px) {
+    //     padding-inline: 50px;
+
+    // }
+    // @media (min-width:1024px) {
+    //     padding-inline: 60px;
+
+    // }
+
 }
 
 .w-fit {

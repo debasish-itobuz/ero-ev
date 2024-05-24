@@ -48,19 +48,19 @@
       margin: auto;
 
       @media (min-width:768px) {
-        width: 80%;
+        // width: 90%;
       }
 
       @media (min-width:1024px) {
-        margin-left: 11rem;
+        margin-left: 13rem;
       }
 
       @media (min-width:1440px) {
-        margin-left: 15rem;
+        margin-left: 17rem;
       }
 
       @media (min-width:1600px) {
-        margin-left: 16rem;
+        margin-left: 19rem;
       }
 
       @media (min-width:1900px) {
@@ -89,20 +89,23 @@
 
       @media (min-width:1024px) {
         position: absolute;
-        width: 12rem;
+        width: 11rem;
         top: 7rem;
-        left: 2rem;
+        left: 4rem;
       }
 
       @media (min-width:1440px) {
         width: 14rem;
-        padding: 1.5rem;
+        padding: 2rem;
         top: 11rem;
         left: 5rem;
       }
 
       @media (min-width:1600px) {
-        top: 12rem;
+        width: 15rem;
+        top: 13rem;
+        left: 5rem;
+
       }
 
       @media (min-width:1900px) {
@@ -183,17 +186,17 @@
         position: absolute;
         margin-top: 0;
         width: 9rem;
-        right: 5rem;
-        top: 10rem;
+        right: 3rem;
+        top: 11rem;
       }
 
       @media (min-width:1024px) {
-        right: 5rem;
-        top: 12rem;
+        right: 3rem;
+        top: 13rem;
       }
 
       @media (min-width:1440px) {
-        right: 10rem;
+        right: 6rem;
         top: 17rem;
         width: 11rem;
         font-size: 32px;
@@ -202,13 +205,13 @@
 
       @media (min-width:1600px) {
         top: 21rem;
-        right: 9rem;
+        right: 5rem;
         width: 14rem;
         font-size: 40px;
         line-height: 44px;
       }
 
-      @media (min-width:1600px) {
+      @media (min-width:1900px) {
         top: 23rem;
         right: 1rem;
         width: 16rem;
@@ -238,26 +241,26 @@
         width: 13rem;
         justify-content: space-between;
         flex-direction: row;
-        bottom: 5rem;
-        left: 10rem;
+        bottom: 6rem;
+        left: 11rem;
       }
 
       @media (min-width:1440px) {
-        bottom: 13rem;
-        left: 15rem;
-        width: 14rem;
-      }
-
-      @media (min-width:1600px) {
-        bottom: 18rem;
+        bottom: 11rem;
         left: 15rem;
         width: 16rem;
       }
 
+      @media (min-width:1600px) {
+        bottom: 15rem;
+        left: 16rem;
+        width: 18rem;
+      }
+
       @media (min-width:1900px) {
-        bottom: 11rem;
+        bottom: 13rem;
         left: 15rem;
-        width: 23rem;
+        width: 22rem;
       }
 
       &-details {
@@ -295,23 +298,12 @@
           line-height: 32px;
           width: 8rem;
         }
-
-
       }
 
       &:hover {
-        background-color: rgb(239, 209, 194);
+        background-color: var(--deep-blue);
         transition: 0.2s ease-in-out;
         cursor: pointer;
-
-        img {
-          filter: invert(100%);
-        }
-
-        .banner-content-arrow-text {
-          color: black;
-          text-decoration: underline;
-        }
       }
 
       @media (min-width:768px) {
@@ -326,7 +318,7 @@
         width: 18rem;
         flex-direction: row;
         bottom: 0;
-        right: 8rem;
+        right: 6rem;
       }
 
       @media (min-width:1440px) {
@@ -335,7 +327,9 @@
       }
 
       @media (min-width:1600px) {
-        right: 20rem;
+        right: 14rem;
+        width: 19rem;
+
       }
 
       @media (min-width:1900px) {
@@ -347,93 +341,6 @@
 
         @media (min-width:768px) {
           height: 59px;
-        }
-      }
-    }
-  }
-
-  &-info {
-    margin: 1rem;
-    background-color: rgb(239, 239, 239);
-
-    @media (min-width:1024px) {
-      margin-top: 5rem;
-    }
-
-    @media (min-width:1600px) {
-      margin-top: 7rem;
-    }
-
-    &-data {
-      @media (min-width:768px) {
-        max-width: 26rem;
-      }
-
-      @media (min-width:1024px) {
-        max-width: 33rem;
-      }
-
-      @media (min-width:1440px) {
-        max-width: 43rem;
-      }
-
-      &-img {
-        width: 6rem;
-
-        img {
-          width: 100%;
-        }
-      }
-
-      &-text {
-        font-size: 25px;
-        line-height: 30px;
-
-        @media (min-width:1024px) {
-          font-size: 30px;
-          line-height: 35px;
-        }
-
-        @media (min-width:1440px) {
-          font-size: 40px;
-          line-height: 52px;
-          max-width: 28rem;
-        }
-      }
-    }
-
-    &-details {
-      @media (min-width:768px) {
-        max-width: 26rem;
-      }
-
-      @media (min-width:1440px) {
-        max-width: 35rem;
-      }
-
-      &-para {
-        font-size: 16px;
-        line-height: 20px;
-
-        @media (min-width:1440px) {
-          font-size: 22px;
-          line-height: 34px;
-        }
-      }
-
-      &-sub-para {
-        font-size: 18px;
-        color: black;
-        text-decoration: none;
-
-        @media (min-width:1440px) {
-          font-size: 26px;
-          line-height: 34px;
-        }
-
-        &:hover {
-          color: var(--blue);
-          text-decoration: underline;
         }
       }
     }
