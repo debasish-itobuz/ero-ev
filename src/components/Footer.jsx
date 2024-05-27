@@ -7,7 +7,7 @@ import ero from '../images/footer/ero.png'
 
 const Footer = () => {
     return (
-        <div className='row screenSize footer gap-3 gap-md-0'>
+        <section className='row screenSize footer gap-3 gap-md-0'>
             <div className='col-12 col-md-6 col-lg-3 footer-info'>
                 <div className='footer-info-logo text-center text-md-start' >
                     <img src={logo} alt="logo" height='29px' width='154px' role='button' />
@@ -57,7 +57,7 @@ const Footer = () => {
             <div className='footer-img mx-auto d-flex justify-content-start align-items-start'>
                 <img src={ero} alt="ero" height="100%" width='100%' />
             </div>
-        </div>
+        </section>
     )
 }
 

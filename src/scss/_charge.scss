@@ -1,31 +1,68 @@
 .charge {
     margin-top: 1rem;
+    // p-2 p-md-3 
+    padding: .8rem;
+
+    @media (min-width:768px) {
+        padding: 1rem;
+
+    }
 
     @media (min-width:1024px) {
         margin-top: 2rem;
+        padding: 1.5rem;
+
     }
 
     @media (min-width:1440px) {
-        margin-top: 4rem;
+        margin-top: 0;
+        padding: 3rem;
+    }
+
+    @media (min-width:1600px) {
+        padding: 4rem;
+    }
+
+    @media (min-width:1900px) {
+        margin-top: 9.5rem;
+        padding: 0;
+
     }
 
     &-heading {
         font-size: 32px;
+        margin-bottom: 1rem;
+        // mb-3 mb-md-4 mb-lg-5 
 
         @media (min-width:768px) {
             font-size: 40px;
+            margin-bottom: 2rem;
+
         }
 
         @media (min-width:1024px) {
             font-size: 48px;
+            margin-bottom: 3rem;
+
         }
 
         @media (min-width:1440px) {
             font-size: 56px;
+            margin-bottom: 4rem;
+
         }
 
         @media (min-width:1600px) {
             font-size: 80px;
+            margin-bottom: 5rem;
+
+        }
+
+        @media (min-width:1900px) {
+            font-size: 100px;
+            line-height: 114px;
+            // margin-bottom: 4rem;
+
         }
     }
 
@@ -47,14 +84,32 @@
                 top: 5rem;
                 right: -5rem;
 
+                width: 180px;
+                // height: 180px;
+
                 @media (min-width:1600px) {
-                    right: -8rem;
+                    width: 200px;
+                    right: -13rem;
                 }
+
+                @media (min-width:1900px) {
+                    width: 275px;
+                    
+                    right: -9rem;
+                }
+
+
 
                 &-num {
                     top: 2.5rem;
                     left: 3.2rem;
                     font-size: 4rem;
+
+                    @media (min-width:1900px) {
+                       font-size: 6rem;
+                    }
+
+
                 }
             }
         }
@@ -118,6 +173,12 @@
                     margin-bottom: 5rem;
                 }
 
+                @media (min-width:1600px) {
+                    font-size: 80px;
+                    line-height: 80px;
+
+                }
+
                 span {
                     color: var(--deep-green);
                 }
@@ -135,6 +196,11 @@
                         margin-top: 1rem;
                     }
 
+                    @media (min-width:1900px) {
+                        font-size: 28px;
+                        line-height: 41px;
+                    }
+
                     a {
                         text-decoration: none;
                         color: var(--black);
@@ -147,7 +213,7 @@
     &-data {
         &-step {
             bottom: 0;
-            right: 0;
+            right: 1rem;
 
             &-text {
                 color: dimgray;
@@ -155,6 +221,7 @@
 
                 @media (min-width:1440px) {
                     font-size: 20px;
+                    line-height: 28px;
                 }
             }
 

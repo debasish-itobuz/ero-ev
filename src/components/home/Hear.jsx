@@ -4,7 +4,7 @@ import Button from '../Button'
 
 const Hear = () => {
     return (
-        <div className="hear screenSize p-2 p-md-3 overflow-hidden ">
+        <section className="hear screenSize p-2 p-md-3 overflow-hidden ">
             <div className="hear-content d-flex flex-column-reverse flex-md-row  gap-3 align-items-end justify-content-between">
                 <p className="hear-content-para text-center text-md-start m-0">
                     Our vision is to create a <span>sustainable future.</span>
@@ -24,7 +24,7 @@ const Hear = () => {
                     achieve that goal. Thank you for taking the time to connect with us!
                 </p>
             </div>
-        </div>
+        </section>
     )
 }
 

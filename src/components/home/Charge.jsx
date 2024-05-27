@@ -7,17 +7,17 @@ import Button from '../Button'
 
 const Charge = () => {
     return (
-        <div className='screenSize charge p-2 p-md-3 '>
-            <h2 className='mb-3 mb-lg-5 charge-heading text-center'>Charge Anywhere, Anytime</h2>
+        <section className='screenSize charge'>
+            <h2 className='charge-heading text-center'>Charge Anywhere, Anytime</h2>
             <div className='charge-content row m-0 p-0 '>
                 <div className='charge-content-img col-12 col-md-6 position-relative '>
                     <div className='charge-content-img-girl'>
                         <img src={girl} alt="girl" width="100%" height="100%" />
                     </div>
                     <div className=' position-absolute charge-content-img-circle d-none d-lg-block'>
-                        <div className='position-relative'>
-                            <img src={circle} alt="circle" width="180px" height="180px" />
-                            <span className='charge-content-img-circle-num position-absolute text-white'>01</span>
+                        <div className='position-relative '>
+                            <img src={circle} alt="circle" height="100%" width='100%' />
+                            <span className='charge-content-img-circle-num position-absolute top-50 start-50 translate-middle  text-white'>01</span>
                         </div>
                     </div>
                     <Button title={"Next Step"} />
@@ -28,16 +28,16 @@ const Charge = () => {
                         <h4 className='charge-content-info-sub-text'>Get the <span>EroEV App.</span></h4>
                         <ul className='charge-content-info-data d-flex gap-2 flex-column m-0 p-0'>
                             <li className='d-flex gap-2 align-items-center charge-content-info-data-link'>
-                                <img src={arrow} alt="arrow" height="16px" width="18px" role='button' />
-                                <a href="#">Download the EroEV Application for Android or iOS.</a>
+                                <img src={arrow} alt="arrow" height="16px" width="18px" />
+                                <p className='m-0 p-0'>Download the EroEV Application for Android or iOS.</p>
                             </li>
                             <li className='d-flex gap-2 align-items-center charge-content-info-data-link'>
-                                <img src={arrow} alt="arrow" height="16px" width="18px" role='button' />
-                                <a href="#">Create your profile.</a>
+                                <img src={arrow} alt="arrow" height="16px" width="18px" />
+                                <p className='m-0 p-0'>Create your profile.</p>
                             </li>
                             <li className='d-flex gap-2 align-items-center charge-content-info-data-link'>
-                                <img src={arrow} alt="arrow" height="16px" width="18px" role='button' />
-                                <a href="#">Add your vehicle details.</a>
+                                <img src={arrow} alt="arrow" height="16px" width="18px" />
+                                <p className='m-0 p-0'>Add your vehicle details.</p>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +47,7 @@ const Charge = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

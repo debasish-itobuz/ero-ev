@@ -25,7 +25,7 @@ const Partners = () => {
     }
     ]
     return (
-        <div className='row g-3 partner p-2 p-md-3 screenSize'>
+        <section className='row g-3 partner p-2 p-md-3 screenSize'>
             <div className='col-12 col-lg-4 partner-content ps-lg-4'>
                 <h2 className='partner-content-heading mb-3 mb-lg-5 text-center text-md-start'>Our Partners.</h2>
                 <p className='partner-content-para text-center text-md-start '>Partnering with the pioneers in sustainability</p>
@@ -34,14 +34,14 @@ const Partners = () => {
                     and create a seamless transportation service while maintaining the green balance
                     of the planet.</p>
             </div>
-            <div className='row g-2 mx-auto col-lg-8 '>
+            <div className='row g-3 g-xl-4 mx-auto col-lg-8 '>
                 {
                     data.map((item) =>
                         <Cabs imgClass={item.className} triangle={item.triangle} logo={item.logo} title={item.title} content={item.content} width={item.width} height={item.height} />
                     )
                 }
             </div>
-        </div>
+        </section>
     )
 }
 

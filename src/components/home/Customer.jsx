@@ -6,7 +6,7 @@ import triangle from '../../images/customer/triangle.svg'
 
 const Customer = () => {
     return (
-        <div className='customer screenSize d-flex overflow-hidden position-relative'>
+        <section className='customer screenSize d-flex overflow-hidden position-relative'>
             <img src={triangle} alt="triangle" height="100%" className='position-absolute bottom-0 d-none d-md-block ' />
             <div className='customer-img d-none d-md-block '>
                 <img src={comma} alt="comma" height="100%" />
@@ -31,7 +31,7 @@ const Customer = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

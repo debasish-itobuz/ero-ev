@@ -4,7 +4,7 @@ import can from '../../images/solution/can.svg'
 const Solutions = () => {
   return (
     <section className='row justify-content-center solution'>
-          <div className=' col-12 col-md-6  row solution-data g-0 text-center text-md-start'>
+          <div className=' col-12 col-md-6 row solution-data g-0 text-center text-md-start'>
             <div className='solution-data-img col-2 '>
               <img src={can} alt="can" height="100%" width="100%" />
             </div>

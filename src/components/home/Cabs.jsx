@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cabs = ({imgClass, logo, triangle, title, content, height, width }) => {
   return (
-    <div className='col-12 col-md-6 partner-info'>
+    <section className='col-12 col-md-6 partner-info'>
       <div className='partner-info-logo'>
         <div className='d-flex justify-content-end partner-info-logo-img'>
           <img src={triangle} alt="triangle" height="100px" width="150px" />
@@ -15,7 +15,7 @@ const Cabs = ({imgClass, logo, triangle, title, content, height, width }) => {
         <p className='partner-info-data-title'>{title}</p>
         <p className='partner-info-data-content'>{content}</p>
       </div>
-    </div>
+    </section>
   )
 }
 

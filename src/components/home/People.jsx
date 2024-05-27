@@ -30,7 +30,7 @@ const People = () => {
     ];
 
     return (
-        <div className="people screenSize p-2 p-md-3 overflow-hidden ">
+        <section className="people screenSize p-2 p-md-3 overflow-hidden ">
             <div className="people-content d-flex flex-column-reverse flex-md-row  gap-3 align-items-end justify-content-between">
                 <p className="people-content-para text-center text-md-start m-0">
                     Our vision is to create a <span>sustainable future.</span>
@@ -50,7 +50,7 @@ const People = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 
