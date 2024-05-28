@@ -7,6 +7,8 @@
 
     @media (min-width:1440px) {
         margin-top: 5rem;
+        width: 95%;
+
     }
 
     @media (min-width:1600px) {
@@ -15,6 +17,8 @@
 
     @media (min-width:1900px) {
         margin-top: 17rem;
+        width: unset;
+
     }
 
     &-content {

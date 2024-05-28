@@ -42,7 +42,7 @@ const Charge = () => {
                         </ul>
                     </div>
                     <div className='d-none d-md-block position-absolute charge-data-step'>
-                        <p className='charge-data-step-text p-0 m-0 pb-1'>Up Next Step</p>
+                        <p className='charge-data-step-text p-0 m-0 mb-xl-2 pb-1'>Up Next Step</p>
                         <img src={scenery} alt="scenery" height="160px" width="160px" />
                     </div>
                 </div>

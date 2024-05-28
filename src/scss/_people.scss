@@ -3,6 +3,8 @@
 
     @media (min-width: 768px) {
         margin-top: 2rem;
+        // padding: 2rem;
+
     }
 
     @media (min-width: 1024px) {
@@ -10,6 +12,14 @@
     }
     @media (min-width:1440px) {
         margin-top: 4rem;
+    }
+
+    @media (min-width:1600px) {
+        margin-top: 6rem;
+    }
+
+    @media (min-width:1900px) {
+        margin-top: 12rem;
     }
 
     &-content {
@@ -25,22 +35,32 @@
 
             @media (min-width: 768px) {
                 font-size: 46px;
-                width: 16rem;
+                line-height: 46px;
+                width: 17rem;
             }
 
             @media (min-width: 1024px) {
                 font-size: 60px;
-                width: 21rem;
+                line-height: 66px;
+                width: 22.5rem;
             }
 
             @media (min-width: 1440px) {
                 font-size: 90px;
-                width: 31rem;
+                line-height: 95px;
+                width: 33rem;
             }
 
             @media (min-width: 1600px) {
                 font-size: 120px;
-                width: 42rem;
+                line-height: 126px;
+                width: 44rem;
+            }
+
+            @media (min-width: 1900px) {
+                font-size: 150px;
+                line-height: 146px;
+                width: 53rem;
             }
         }
 
@@ -68,6 +88,12 @@
                 width: 28rem;
             }
 
+            @media (min-width: 1900px) {
+                font-size: 46px;
+                line-height: 45px;
+                width: 34rem;
+            }
+
             span {
                 color: var(--green);
             }
@@ -92,6 +118,11 @@
                 height: 70px;
                 width: 70px;
             }
+
+            @media (min-width: 1900px) {
+                height: 80px;
+                width: 80px;
+            }
         }
 
         &-text {
@@ -99,6 +130,10 @@
 
             @media (min-width: 1024px) {
                 font-size: 20px;
+            }
+
+            @media (min-width: 1900px) {
+                font-size: 24px;
             }
         }
     }

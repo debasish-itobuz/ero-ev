@@ -30,9 +30,9 @@ const People = () => {
     ];
 
     return (
-        <section className="people screenSize p-2 p-md-3 overflow-hidden ">
-            <div className="people-content d-flex flex-column-reverse flex-md-row  gap-3 align-items-end justify-content-between">
-                <p className="people-content-para text-center text-md-start m-0">
+        <section className="people screenSize p-2 p-md-3 overflow-hidden container">
+            <div className="people-content d-flex flex-column-reverse flex-md-row gap-3 align-items-end justify-content-between">
+                <p className="people-content-para text-center text-md-start ms-md-2 ms-xl-0 ps-md-3 ps-xl-5">
                     Our vision is to create a <span>sustainable future.</span>
                 </p>
                 <h2 className="people-content-heading text-center text-md-start ">
@@ -42,11 +42,11 @@ const People = () => {
             <div className="row justify-content-center justify-content-md-evenly text-center people-img">
                 {data.map((item, index) => (
                     <div
-                        className={`col-6 col-md-2 d-flex flex-column gap-2 align-items-center border-2 people-img-data ${index === 0 ? "" : window.screen.width < 768 ? "" : "border-start"
+                        className={`col-6 col-md-2 d-flex flex-column gap-2 gap-md-3 align-items-center border-2 people-img-data ${index === 0 ? "" : window.screen.width < 768 ? "" : "border-start"
                             }`}
                     >
                         <img src={item.image} alt={item.title} height="50px" width="50px" />
-                        <p className="people-img-text ">{item.title}</p>
+                        <p className="people-img-text fw-semibold text-nowrap">{item.title}</p>
                     </div>
                 ))}
             </div>
