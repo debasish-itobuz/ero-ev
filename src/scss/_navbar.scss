@@ -1,12 +1,18 @@
 .navbar {
   position: absolute;
   top: 0px;
-  // background-color: white;
+  background-color:  rgb(243 242 242);;
   width: 100%;
   z-index: 1;
 
   @media (min-width: 768px) {
     padding: 1rem 4rem;
+
+  }
+
+  @media (min-width: 1024px) {
+    background-color: unset;
+
   }
 
   @media (min-width: 1440px) {

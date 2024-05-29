@@ -7,7 +7,7 @@ const Cabs = ({imgClass, logo, triangle, title, content, height, width }) => {
         <div className='d-flex justify-content-end partner-info-logo-img'>
           <img src={triangle} alt="triangle" height="100px" width="150px" />
         </div>
-        <div className={`d-flex justify-content-start p-3 mt-md-4 mt-xl-5 ${imgClass}`}>
+        <div className={`d-flex justify-content-start p-3 mt-md-4 ${imgClass}`}>
           <img src={logo} alt="cab" height={height} width={width} />
         </div>
       </div>

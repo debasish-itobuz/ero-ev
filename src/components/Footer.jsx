@@ -49,13 +49,13 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <h6 className='footer-data-content-heading'>Location</h6>
-                    <p className='footer-data-content-text mt-2'>7th Floor, Monibhandar Building Webel Bhavan Premises, Sector5, Ring Rd,
+                    <h6 className='footer-data-content-heading mt-xl-3'>Location</h6>
+                    <p className='footer-data-content-text mt-2 mt-xl-3'>7th Floor, Monibhandar Building Webel Bhavan Premises, Sector5, Ring Rd,
                         Bidhannagar, West Bengal 700091</p>
                 </div>
             </div>
             <div className='footer-img mx-auto d-flex justify-content-start align-items-start'>
-                <img src={ero} alt="ero" height="100%" width='100%' />
+                <img src={ero} alt="ero" height="100%"/>
             </div>
         </section>
     )

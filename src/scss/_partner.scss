@@ -135,6 +135,11 @@
                         height: 130px;
                         width: 200px;
                     }
+
+                    @media (min-width: 1900px) {
+                        height: 178px;
+                        width: 262px;
+                    }
                 }
             }
         }

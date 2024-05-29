@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className='screenSize'>
       <div className='d-flex flex-column justify-content-center banner mt-5 mt-lg-4'>
-        <h1 className='mx-auto banner-heading mt-4 text-center text-lg-start'>We Bring Charging Stations to You. </h1>
+        <h1 className='mx-auto banner-heading mt-5 mt-lg-4 text-center text-lg-start'>We Bring Charging Stations to You. </h1>
         <div className='banner-content text-center position-relative d-flex flex-column flex-lg-row justify-content-center '>
           <div className='banner-content-img'>
             <img src={car} alt="car" height='100%' />
