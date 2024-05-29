@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Cabs = ({imgClass, logo, triangle, title, content, height, width }) => {
+const Cabs = ({ imgClass, logo, triangle, title, content, height, width }) => {
   return (
     <section className='col-12 col-md-6 partner-info pe-lg-2 pe-xl-0'>
       <div className='partner-info-logo'>

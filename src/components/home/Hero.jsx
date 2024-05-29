@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
             <div className='banner-content-logo bg-black text-white py-3 py-xl-4 px-4 d-flex align-items-center justify-content-xl-around '>
               <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2'>
-                <DiAndroid className='fs-1 banner-content-logo-details-icon'  role="button"/>
+                <DiAndroid className='fs-1 banner-content-logo-details-icon' role="button" />
                 <p className='m-0 p-0 banner-content-logo-details-text text-nowrap text-decoration-underline'>For android</p>
               </div>
               <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2' >

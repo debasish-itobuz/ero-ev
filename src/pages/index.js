@@ -9,7 +9,7 @@ const IndexPage = () => {
     <main>
       <Navbar />
       <Home />
-      <Footer/>
+      <Footer />
     </main>
   );
 };

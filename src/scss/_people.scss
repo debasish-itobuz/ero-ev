@@ -3,22 +3,21 @@
 
     @media (min-width: 768px) {
         margin-top: 2rem;
-        // padding: 2rem;
-
     }
 
     @media (min-width: 1024px) {
         margin-top: 3rem;
     }
-    @media (min-width:1440px) {
+
+    @media (min-width: 1440px) {
         margin-top: 4rem;
     }
 
-    @media (min-width:1600px) {
+    @media (min-width: 1600px) {
         margin-top: 6rem;
     }
 
-    @media (min-width:1900px) {
+    @media (min-width: 1900px) {
         margin-top: 12rem;
     }
 
@@ -113,6 +112,7 @@
                 }
             }
         }
+
         img {
             @media (min-width: 1400px) {
                 height: 70px;

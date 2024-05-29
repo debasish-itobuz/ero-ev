@@ -1,26 +1,14 @@
 :root {
-    --green: #00D47E;
+    --green: #00d47e;
     --deep-green: #199753;
-    --blue: #1A5ABB;
-    --deep-blue: #144793; 
-    --black: #2A2A29;
+    --blue: #1a5abb;
+    --deep-blue: #144793;
+    --black: #2a2a29;
 }
 
 .screenSize {
     max-width: 1710px;
     margin: auto;
-    // padding-inline: 10px;
-    
-
-    // @media (min-width:768px) {
-    //     padding-inline: 50px;
-
-    // }
-    // @media (min-width:1024px) {
-    //     padding-inline: 60px;
-
-    // }
-
 }
 
 .w-fit {
@@ -34,63 +22,51 @@
     left: 50%;
     translate: -50%;
     text-wrap: nowrap;
-    // px-1 p-1 px-md-4
-    padding:0 0.5rem ;
+    padding: 0 0.5rem;
     font-size: 18px;
     line-height: 30px;
 
     img {
-
-        @media (min-width:1900px) {
+        @media (min-width: 1900px) {
             height: 56px;
             width: 64px;
-    
         }
-
     }
 
     &:hover {
         text-decoration: underline;
         background-color: var(--deep-blue);
-        // color: black;
-        transition: .2s ease-in-out;
+        transition: 0.2s ease-in-out;
     }
 
-    @media (min-width:768px) {
+    @media (min-width: 768px) {
         left: unset;
         right: 0;
         translate: 50%;
-        padding:0.1rem 1rem ;
+        padding: 0.1rem 1rem;
         font-size: 20px;
         line-height: 30px;
-
     }
 
-    @media (min-width:1440px) {
-        padding:0.5rem 1.5rem ;
+    @media (min-width: 1440px) {
+        padding: 0.5rem 1.5rem;
         font-size: 22px;
         line-height: 36px;
     }
 
-    @media (min-width:1600px) {
+    @media (min-width: 1600px) {
         translate: 74%;
-        padding:0.7rem 2rem ;
-    
+        padding: 0.7rem 2rem;
     }
 
-    // @media (min-width:1700px) {
-    //     translate: 75%;
-    // }
-
-    @media (min-width:1800px) {
+    @media (min-width: 1800px) {
         translate: 80%;
     }
 
-    @media (min-width:1900px) {
+    @media (min-width: 1900px) {
         translate: 50%;
-        padding:1rem 3rem ;
+        padding: 1rem 3rem;
         font-size: 26px;
         line-height: 36px;
-
     }
 }

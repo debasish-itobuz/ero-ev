@@ -10,16 +10,16 @@ import Hear from '../components/home/Hear'
 
 const home = () => {
   return (
-   <>
-      <Hero/>
-      <Solutions/>
-      <Drive/>
-      <Charge/>
-      <Partners/>
-      <People/>
-      <Customer/>
-      <Hear/>
-   </>
+    <>
+      <Hero />
+      <Solutions />
+      <Drive />
+      <Charge />
+      <Partners />
+      <People />
+      <Customer />
+      <Hear />
+    </>
   )
 }
 
