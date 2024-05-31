@@ -158,6 +158,7 @@
 
         &-img {
           display: none;
+          cursor: pointer;
 
           &:hover {
             filter: invert(20%);
@@ -253,8 +254,8 @@
 
       @media (min-width: 1900px) {
         bottom: 13rem;
-        left: 15rem;
-        width: 22rem;
+        left: 17rem;
+        width: 20rem;
       }
 
       &-details {

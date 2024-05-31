@@ -41,7 +41,7 @@ const People = () => {
             </div>
             <div className="row justify-content-center justify-content-md-evenly text-center people-img">
                 {data.map((item, index) => (
-                    <div
+                    <div key = {index}
                         className={`col-6 col-md-2 d-flex flex-column gap-2 gap-md-3 align-items-center border-2 people-img-data ${index === 0 ? "" : window.screen.width < 768 ? "" : "border-start"
                             }`}
                     >

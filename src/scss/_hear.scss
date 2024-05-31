@@ -146,5 +146,23 @@
                 width: 40rem;
             }
         }
+
+        &-img {
+            &-button {
+                background-color: var(--blue);
+                color: white;
+                bottom: 0;
+                left: 50%;
+                translate: -50%;
+                text-wrap: nowrap;
+                padding: 0 0.5rem;
+                font-size: 18px;
+                line-height: 30px;
+            
+                @media (min-width: 768px) {
+                    left: 100%;
+                }
+            }
+        }
     }
 }

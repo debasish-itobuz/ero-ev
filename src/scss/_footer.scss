@@ -261,9 +261,12 @@
         @media (min-width: 1440px) {
             height: 200px;
             width: 226px;
+            margin-top: -.7rem;
+
         }
 
         @media (min-width: 1900px) {
+            margin-top: -1.5rem;
             height: 272px;
             width: 272px;
         }

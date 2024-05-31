@@ -14,7 +14,7 @@ const Solutions = () => {
         <p className='solution-details-para p-2 p-md-3 mb-1 mb-xl-2'>Our on-demand EV charging services make sure that EV owners remain free of worries.
           With only a few taps on your phone, you can get your EV charged anywhere.
           Yes. Anywhere!</p>
-        <a href="#" className='solution-details-sub-para text-decoration-underline p-md-3'>See How We Do It</a>
+        <a href="/" className='solution-details-sub-para text-decoration-underline p-md-3'>See How We Do It</a>
       </div>
     </section>
   )

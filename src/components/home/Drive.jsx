@@ -16,7 +16,7 @@ const Drive = () => {
         <h2 className='drive-heading text-center text-md-start'>Making Drives Worry-Free.</h2>
         <div className='position-relative'>
           <img src={man} alt="man" width="100%" height="100%" />
-          <img src={play} alt="play" width="100px" height="100px" onClick={handleClick} className=' position-absolute top-50 start-50 translate-middle play' role='button' />
+          <img src={play} alt="play" width="100px" height="100px" onClick={handleClick} className=' position-absolute top-50 start-50 translate-middle play' />
         </div>
       </section>
       <VideoModal open={open} setOpen={setOpen} />

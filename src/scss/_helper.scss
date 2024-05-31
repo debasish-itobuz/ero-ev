@@ -18,13 +18,17 @@
 .hero-button {
     background-color: var(--blue);
     color: white;
-    bottom: 0;
+    bottom: 12.6rem;
     left: 50%;
     translate: -50%;
     text-wrap: nowrap;
     padding: 0 0.5rem;
     font-size: 18px;
     line-height: 30px;
+
+    @media (min-width: 768px) {
+        bottom:0;
+    }
 
     img {
         @media (min-width: 1900px) {

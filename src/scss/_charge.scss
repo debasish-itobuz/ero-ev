@@ -60,7 +60,7 @@
             &-girl {
                 @media (min-width: 1600px) {
                     height: 1036px;
-                    width: 840px;
+                    width: 860px;
 
                     img {
                         width: 100%;
@@ -71,17 +71,21 @@
 
             &-circle {
                 top: 5rem;
-                right: -5rem;
+                right:50%;
+                transform: translate(50%);
+                // right: 0;
+                // right: -5rem;
                 width: 180px;
+                // z-index: 5;
 
                 @media (min-width: 1600px) {
                     width: 200px;
-                    right: -13rem;
+                    // right: -13rem;
                 }
 
                 @media (min-width: 1900px) {
                     width: 275px;
-                    right: -9rem;
+                    // right: -9rem;
                 }
 
                 &-num {
@@ -213,5 +217,9 @@
                 }
             }
         }
+    }
+
+    &-carousel {
+        transition: 0.5s ease;
     }
 }

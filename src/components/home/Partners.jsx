@@ -37,7 +37,7 @@ const Partners = () => {
             <div className='row g-3 mx-auto col-lg-8 mt-0 '>
                 {
                     data.map((item) =>
-                        <Cabs imgClass={item.className} triangle={item.triangle} logo={item.logo} title={item.title} content={item.content} width={item.width} height={item.height} />
+                        <Cabs key={item.title} imgClass={item.className} triangle={item.triangle} logo={item.logo} title={item.title} content={item.content} width={item.width} height={item.height} />
                     )
                 }
             </div>

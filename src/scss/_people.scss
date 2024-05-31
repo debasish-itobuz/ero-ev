@@ -28,6 +28,18 @@
             margin-bottom: 5rem;
         }
 
+        @media (min-width: 1024px) {
+            margin-bottom: 7rem;
+        }
+
+        @media (min-width: 1600px) {
+            margin-bottom: 9rem;
+        }
+
+        @media (min-width: 1900px) {
+            margin-bottom: 11rem;
+        }
+
         &-heading {
             font-size: 32px;
             width: 100%;

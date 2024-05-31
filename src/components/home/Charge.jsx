@@ -1,27 +1,59 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import girl from '../../images/charge/girl.png'
 import arrow from '../../images/charge/arrow.svg'
 import scenery from '../../images/charge/scenery.png'
 import circle from '../../images/charge/circle.svg'
+import circleFull from '../../images/charge/circle-full.svg'
 import Button from '../Button'
 
 const Charge = () => {
+
+    let chargeCarousel;
+
+    const [count, setCount] = useState(1)
+
+    function handleCharge() {
+        chargeCarousel.style.transform = `translateX(-${(count) * 100}%)`;
+        if (count >= 1) setCount(0);
+        else
+            setCount(count + 1)
+    }
+
+    useEffect(() => {
+        chargeCarousel = document.getElementById("charge-carousel")
+    }, [count])
+
     return (
         <section className='screenSize charge'>
             <h2 className='charge-heading text-center'>Charge Anywhere, Anytime</h2>
-            <div className='charge-content row m-0 p-0 '>
-                <div className='charge-content-img col-12 col-md-6 position-relative '>
-                    <div className='charge-content-img-girl'>
-                        <img src={girl} alt="girl" width="100%" height="100%" />
-                    </div>
-                    <div className=' position-absolute charge-content-img-circle d-none d-lg-block'>
-                        <div className='position-relative '>
-                            <img src={circle} alt="circle" height="100%" width='100%' />
-                            <span className='charge-content-img-circle-num position-absolute top-50 start-50 translate-middle  text-white'>01</span>
+            <div className='charge-content row g-0 m-0 p-0 position-relative'>
+
+                <div className='charge-wrapper col-12 col-md-6 z-1 overflow-hidden position-relative'>
+                    <div className='d-flex charge-carousel' id="charge-carousel">
+
+                        <div className='charge-content-img position-relative flex-shrink-0 w-100'>
+                            <div className='charge-content-img-girl'>
+                                <img src={girl} alt="girl" height="100%" width='100%' />
+                            </div>
+                        </div>
+
+                        <div className='charge-content-img position-relative flex-shrink-0 w-100 '>
+                            <div className='charge-content-img-girl'>
+                                <img src={girl} alt="girl" height="100%" width='100%' />
+                            </div>
                         </div>
                     </div>
-                    <Button title={"Next Step"} />
                 </div>
+
+                <div className=' position-absolute charge-content-img-circle d-none d-lg-block  z-3'>
+                    <div className='position-relative'>
+                        <img src={count ? circle : circleFull} alt="circle" height="100%" width='100%' />
+                        <span className='charge-content-img-circle-num position-absolute top-50 start-50 translate-middle  text-white'>{count ? '01' : '02'}</span>
+                    </div>
+                </div>
+
+                <Button title={"Next Step"} handleClick={handleCharge} customClasses={"d-flex flex-row align-items-center w-fit hero-button z-3 border-0 position-absolute end-50"} />
+
                 <div className='col-12 col-md-6 ps-md-5 pt-3 pt-md-0 pt-lg-5 position-relative charge-data'>
                     <div className='charge-content-info'>
                         <p className='charge-content-info-text'>It's simple and easy.</p>

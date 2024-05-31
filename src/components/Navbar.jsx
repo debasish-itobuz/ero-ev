@@ -13,7 +13,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg screenSize">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#"><img src={logo} alt="logo" height="28px" width="146px" /></a>
+                <a className="navbar-brand" href="/"><img src={logo} alt="logo" height="28px" width="146px" /></a>
                 <button className="navbar-toggler bars" type="button" onClick={toggleMenu}>
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -23,19 +23,19 @@ function Navbar() {
                             <Link to="/" className="nav-link">Home</Link>
                         </li>
                         <li className="nav-item nav-li ps-3 ps-lg-0">
-                            <a className="nav-link" href="#">About</a>
+                            <Link to='/about' className="nav-link" >About</Link>
                         </li>
                         <li className="nav-item nav-li ps-3 ps-lg-0">
-                            <a className="nav-link" href="#">Product</a>
+                            <Link to='/' className="nav-link">Product</Link>
                         </li>
                         <li className="nav-item nav-li ps-3 ps-lg-0">
-                            <a className="nav-link" href="#">Contact</a>
+                            <Link to ='/' className="nav-link">Contact</Link>
                         </li>
                         <li className="nav-item nav-li ps-3 ps-lg-0">
-                            <a className="nav-link" href="#">Press Release</a>
+                            <Link to='/' className="nav-link">Press Release</Link>
                         </li>
                         <li className="nav-item nav-li ps-3 ps-lg-0">
-                            <a className="nav-link" href="#">FAQ</a>
+                            <Link to='/' className="nav-link">FAQ</Link>
                         </li>
                     </ul>
                 </div>

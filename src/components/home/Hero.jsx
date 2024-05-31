@@ -20,7 +20,7 @@ const Hero = () => {
               <p className='banner-content-info-para p-0 p-md-1 p-xl-2 '>A future with worry-free</p>
               <h3 className='banner-content-info-heading p-0 p-md-1 p-xl-2 fw-bold'>EV Charging!</h3>
               <p className='banner-content-info-sub-para p-0 p-md-1 p-xl-2 m-1 fw-semibold '>Get the App</p>
-              <img src={arrow} alt="arrow" className='banner-content-info-sub-para-img m-1' role="button" />
+              <img src={arrow} alt="arrow" className='banner-content-info-sub-para-img m-1' />
             </div>
             <div className='banner-content-logo bg-black text-white py-3 py-xl-4 px-4 d-flex align-items-center justify-content-xl-around '>
               <div className='d-flex flex-column align-items-center banner-content-logo-details gap-2'>
