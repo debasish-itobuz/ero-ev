@@ -1,8 +1,8 @@
 import React from 'react'
 import Cabs from './Cabs'
-import triangle from '../../images/partner/triangle.svg'
-import snape from '../../images/partner/snap.png'
-import uber from '../../images/partner/uber.png'
+import triangle from '../../images/home/partner/triangle.svg'
+import snape from '../../images/home/partner/snap.png'
+import uber from '../../images/home/partner/uber.png'
 
 const Partners = () => {
     const data = [{

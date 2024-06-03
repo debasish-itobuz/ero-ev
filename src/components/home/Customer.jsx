@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
-import comma from '../../images/customer/comma.svg'
-import man from '../../images/customer/man.png'
-import arrow from '../../images/customer/arrow.svg'
-import triangle from '../../images/customer/triangle.svg'
+import comma from '../../images/home/customer/comma.svg'
+import man from '../../images/home/customer/man.png'
+import arrow from '../../images/home/customer/arrow.svg'
+import triangle from '../../images/home/customer/triangle.svg'
 
 const Customer = () => {
 

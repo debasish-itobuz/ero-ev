@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='footer-img mx-auto d-flex justify-content-start align-items-start'>
-                <img src={ero} alt="ero" height="100%" />
+                <img src={ero} alt="ero" height="100%"  />
             </div>
         </section>
     )

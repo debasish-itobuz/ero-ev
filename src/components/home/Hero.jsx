@@ -1,7 +1,7 @@
 import React from 'react'
-import arrow from "../../images/banner/arrow.svg"
-import car from '../../images/banner/car.png'
-import explore from '../../images/banner/explore.svg'
+import arrow from "../../images/home/banner/arrow.svg"
+import car from '../../images/home/banner/car.png'
+import explore from '../../images/home/banner/explore.svg'
 import { DiAndroid } from "react-icons/di";
 import { IoLogoApple } from "react-icons/io";
 

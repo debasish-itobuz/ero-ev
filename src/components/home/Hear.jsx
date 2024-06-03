@@ -1,6 +1,5 @@
 import React from 'react'
-import man from '../../images/hear/man.png'
-import Button from '../Button'
+import man from '../../images/home/hear/man.png'
 
 const Hear = () => {
     return (
@@ -17,7 +16,6 @@ const Hear = () => {
             <div className='hear-info row'>
                 <div className='hear-info-img col-12 col-md-6 mb-2 position-relative '>
                     <img src={man} alt="man" height='100%' width='100%' />
-                    <Button title={"Let's Talk"} customClasses={'d-flex flex-row align-items-center w-fit  hear-info-img-button z-3 border-0 position-absolute end-50'} />
                 </div>
                 <p className='hear-info-text p-1 p-md-0 text-center text-md-start col-12 col-md-6 '>
                     We're committed to providing the best possible service, and your input helps us

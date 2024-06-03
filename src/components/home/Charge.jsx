@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import girl from '../../images/charge/girl.png'
-import arrow from '../../images/charge/arrow.svg'
-import scenery from '../../images/charge/scenery.png'
-import circle from '../../images/charge/circle.svg'
-import circleFull from '../../images/charge/circle-full.svg'
+import girl from '../../images/home/charge/girl.png'
+import arrow from '../../images/home/charge/arrow.svg'
+import scenery from '../../images/home/charge/scenery.png'
+import circle from '../../images/home/charge/circle.svg'
+import circleFull from '../../images/home/charge/circle-full.svg'
 import Button from '../Button'
 
 const Charge = () => {

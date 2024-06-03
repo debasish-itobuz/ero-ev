@@ -1,0 +1,181 @@
+.hero {
+    width: 95%;
+    margin-top: 4rem;
+    padding: 0.5rem;
+
+    @media (min-width: 768px) {
+        margin-top: 5rem;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 0 1rem;
+    }
+
+
+    @media (min-width: 1400px) {
+        margin-top: 7rem;
+        padding: 0 2rem;
+    }
+
+    @media (min-width: 1900px) {
+        margin-top: 9.5rem;
+        padding: 0;
+    }
+
+    &-content {
+        &-heading {
+            font-size: 32px;
+            margin-bottom: 1rem;
+            width: 18rem;
+
+            @media (min-width: 768px) {
+                font-size: 40px;
+                margin-bottom: 1rem;
+                width: 22rem;
+            }
+
+            @media (min-width: 1024px) {
+                font-size: 48px;
+                margin-bottom: 3rem;
+                width: 27rem;
+            }
+
+            @media (min-width: 1440px) {
+                font-size: 56px;
+                margin-bottom: 4rem;
+                width: 31rem;
+            }
+
+            @media (min-width: 1600px) {
+                font-size: 80px;
+                margin-bottom: 5rem;
+                width: 44rem;
+            }
+
+            @media (min-width: 1900px) {
+                font-size: 100px;
+                line-height: 114px;
+                width: 56rem;
+                margin-bottom: 11rem;
+            }
+
+            span {
+                color: var(--deep-green);
+            }
+        }
+
+        &-info {
+            &-heading {
+                font-size: 18px;
+                margin-bottom: 0.5rem;
+
+                @media (min-width: 768px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 1024px) {
+                    font-size: 26px;
+                    margin-bottom: 1rem;
+                }
+
+                @media (min-width: 1440px) {
+                    font-size: 30px;
+                }
+
+                @media (min-width: 1600px) {
+                    font-size: 40px;
+                }
+
+                @media (min-width: 1900px) {
+                    font-size: 48px;
+                    line-height: 46px;
+                    margin-bottom: 2.8rem;
+                }
+
+                span {
+                    color: var(--deep-green);
+                }
+            }
+
+            &-text {
+                font-size: 15px;
+                line-height: 25px;
+                width: 18rem;
+
+                @media (min-width: 768px) {
+                    // font-size: 18px;
+                    line-height: 26px;
+
+                    width: 23rem;
+                }
+
+                @media (min-width: 1024px) {
+                    width: 27rem;
+                }
+
+                @media (min-width: 1440px) {
+                    font-size: 20px;
+                    line-height: 32px;
+
+                    width: 30rem;
+                }
+
+                @media (min-width: 1600px) {
+                    width: 40rem;
+                }
+
+                @media (min-width: 1900px) {
+                    font-size: 24px;
+                    line-height: 41px;
+                    width: 46rem;
+                }
+            }
+        }
+    }
+
+    &-img {
+        height: 280px;
+        width: 280px;
+
+        @media (min-width: 768px) {
+            height: 297px;
+            width: 297px;
+        }
+
+        @media (min-width: 1024px) {
+            height: 390px;
+            width: 390px;
+        }
+
+        @media (min-width: 1400px) {
+            height: 530px;
+            width: 530px;
+        }
+
+        @media (min-width: 1900px) {
+            height: 695px;
+            width: 695px;
+        }
+
+        &-logo {
+            height: 100px;
+            width: 100px;
+            top: 65%;
+
+            @media (min-width: 1440px) {
+                height: 120px;
+                width: 120px;
+            }
+
+            @media (min-width: 1600px) {
+                height: 150px;
+                width: 150px;
+            }
+
+            @media (min-width: 1900px) {
+                height: 211px;
+                width: 211px;
+            }
+        }
+    }
+}

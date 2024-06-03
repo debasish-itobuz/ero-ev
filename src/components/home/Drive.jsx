@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import man from '../../images/drives/man.png'
-import play from '../../images/drives/play.svg'
+import man from '../../images/home/drives/man.png'
+import play from '../../images/home/drives/play.svg'
 import VideoModal from '../../modals/VideoModal';
 
 const Drive = () => {

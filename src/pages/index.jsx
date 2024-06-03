@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Layout from '../components/Layout'
 import Hero from '../components/home/Hero'
 import Solutions from '../components/home/Solutions'
 import Drive from '../components/home/Drive'
@@ -13,18 +12,18 @@ import "../scss/_app.scss"
 
 const home = () => {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Solutions />
-      <Drive />
-      <Charge />
-      <Partners />
-      <People />
-      <Customer />
-      <Hear />
-      <Footer />
-    </>
+   
+      <Layout>
+        <Hero />
+        <Solutions />
+        <Drive />
+        <Charge />
+        <Partners />
+        <People />
+        <Customer />
+        <Hear />
+      </Layout>
+   
   )
 }
 

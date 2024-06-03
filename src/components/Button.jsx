@@ -1,5 +1,5 @@
 import React from 'react'
-import step from '../images/charge/step.svg'
+import step from '../images/home/charge/step.svg'
 
 const Button = ({ title, customClasses, handleClick}) => {
     return (

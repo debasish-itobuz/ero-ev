@@ -1,9 +1,9 @@
 import React from "react";
-import charge from "../../images/people/charge.svg";
-import reliable from "../../images/people/reliable.svg";
-import sustainable from "../../images/people/sustainable.svg";
-import convinient from "../../images/people/convinient.svg";
-import user from "../../images/people/user.svg";
+import charge from "../../images/home/people/charge.svg";
+import reliable from "../../images/home/people/reliable.svg";
+import sustainable from "../../images/home/people/sustainable.svg";
+import convinient from "../../images/home/people/convinient.svg";
+import user from "../../images/home/people/user.svg";
 
 const People = () => {
     const data = [
