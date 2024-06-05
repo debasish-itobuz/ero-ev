@@ -10,8 +10,8 @@ export default function Vision() {
                 <div className='col-12 col-md-6 vision-content-img mx-auto mx-xl-0 position-relative'>
                     <img src={car} alt="car" height="100%" width='100%' />
 
-                    <div className='vision-content-img-arrow d-flex justify-content-between align-items-center gap-5 p-3 px-lg-4 py-xl-4  position-absolute'>
-                        <p className='m-0 p-0 py-md-1  py-xl-2 text-start vision-content-img-arrow-text text-decoration-underline text-nowrap text-white'>Get in touch.</p>
+                    <div className='vision-content-img-arrow d-flex justify-content-between align-items-end gap-5 p-3 px-lg-4 px-xl-5 py-xl-5  position-absolute'>
+                        <p className='m-0 p-0 text-start vision-content-img-arrow-text text-decoration-underline text-nowrap text-white'>Get in touch.</p>
                         <img src={arrow} alt="arrow" height='45px' width="65px" />
                     </div>
 
