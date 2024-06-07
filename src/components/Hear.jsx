@@ -1,9 +1,10 @@
 import React from 'react'
-import man from '../../images/home/hear/man.png'
+import Button from './Button'
+import man from '../images/home/hear/man.png'
 
 const Hear = () => {
     return (
-        <section className="hear screenSize p-2 p-md-3 overflow-hidden ">
+        <section className="hear screenSize p-2 p-md-3 overflow-hidden position-relative ">
             <div className="hear-content d-flex flex-column-reverse flex-md-row  gap-3 align-items-end justify-content-between">
                 <p className="hear-content-para text-center text-md-start m-0">
                     Our vision is to create a <span>sustainable future.</span>
@@ -22,6 +23,8 @@ const Hear = () => {
                     achieve that goal. Thank you for taking the time to connect with us!
                 </p>
             </div>
+            <Button title={"Let's Talk"} customClasses={"d-flex flex-row align-items-center w-fit hear-info-button z-3 border-0 position-absolute end-50"} />
+
         </section>
     )
 }

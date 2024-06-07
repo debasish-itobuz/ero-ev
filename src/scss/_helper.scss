@@ -27,10 +27,6 @@
     font-size: 18px;
     line-height: 30px;
 
-    @media (min-width: 768px) {
-        bottom:0;
-    }
-
     img {
         @media (min-width: 1900px) {
             height: 56px;
@@ -46,8 +42,9 @@
     @media (min-width: 768px) {
         left: unset;
         right: 0;
+        bottom:0;
         translate: 50%;
-        padding: 0.1rem 1rem;
+        padding: 0.1rem 2rem;
         font-size: 20px;
         line-height: 30px;
     }

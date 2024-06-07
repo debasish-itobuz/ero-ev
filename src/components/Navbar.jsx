@@ -35,7 +35,7 @@ function Navbar() {
                             <Link to='/' className="nav-link">Press Release</Link>
                         </li>
                         <li className="nav-item nav-li ps-3 ps-lg-0">
-                            <Link to='/' className="nav-link">FAQ</Link>
+                            <Link to='/faq' className="nav-link">FAQ</Link>
                         </li>
                     </ul>
                 </div>

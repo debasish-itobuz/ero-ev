@@ -42,11 +42,9 @@ export default function Team() {
     const [current, setCurrent] = useState(0);
 
     function handleTeam() {
-        //width
-        // let width = window.screen.width >= 320 ? 120 : window.screen.width >= 768 ? 50 : 32.5;
         let width = window.screen.width >= 1900 ? 32.5 : window.screen.width >= 1600 ? 31 : window.screen.width >= 1440 ? 34.5 : window.screen.width >= 1024 ? 40.2 : window.screen.width >= 768 ? 54 : 113;
 
-        teamCarousel.style.transform = `translateX(-${(count) * width}%)`;
+        teamCarousel.style.transform = `translateX(-${count * width}%)`;
         if (count >= 3) setCount(0);
         else
             setCount(count + 1);
@@ -78,21 +76,20 @@ export default function Team() {
                                 <div className='team-info-items-img'>
                                     <img src={item.img} alt={item.name} height='100%' width="100%" />
                                 </div>
-
                                 <h5 className='fw-semibold team-info-items-title '>{item.name}</h5>
                                 <p className='p-0 m-0 team-info-items-text'>{item.post}</p>
 
-                                <div className={`${current === index ? "d-block" : "d-none"} team-info-items-details`}>
-                                    <h5 className='fw-semibold '>{item.name}</h5>
-                                    <p className='p-0 m-0 '>{item.post}</p>
-                                    <p className='p-0 m-0 team-info-items-para'>{item.details}</p>
+                                <div className={`${current === index ? "d-md-block" : "d-none"} d-none team-info-items-details p-3 p-xl-5`}>
+                                    <h5 className='fw-semibold team-info-items-title mb-3'>{item.name}</h5>
+                                    <p className='p-0 mb-5 '>{item.post}</p>
+                                    <p className='p-0 mb-4 team-info-items-para'>{item.details}</p>
 
-                                    <div className='d-flex gap-2 footer-info-items justify-content-center  '>
+                                    <div className='d-flex gap-2 footer-info-items justify-content-start mb-3'>
                                         <div className='footer-info-items-img d-flex justify-content-center  align-items-center '>
                                             <img src={facebook} alt="fb" />
                                         </div>
                                         <div className='footer-info-items-img d-flex justify-content-center  align-items-center '>
-                                            <img src={instagram} alt="insta" />
+                                            <img src={instagram} alt="instagram" />
                                         </div>
                                         <div className='footer-info-items-img d-flex justify-content-center  align-items-center '>
                                             <img src={linkedIn} alt="in" />
@@ -103,43 +100,8 @@ export default function Team() {
                         })}
                     </div>
                 </div>
-
-
-                <Button title={"Next"} handleClick={handleTeam} customClasses={"d-flex flex-row align-items-center w-fit hero-button z-3 border-0 position-absolute end-50"} />
-
+                <Button title={"Next"} handleClick={handleTeam} customClasses={"d-flex flex-row align-items-center w-fit team-button z-3 border-0 position-absolute end-50"} />
             </div>
-
-            {/* <div className='d-flex team-info overflow-scroll'>
-                <div className='team-info-items'>
-                    <div className='team-info-items-img'>
-                        <img src={anuradha} alt="selina" height='100%' width='100%' />
-                    </div>
-                    <h5 className='fw-semibold team-info-items-title'>Selina Dasgupta</h5>
-                    <p className='p-0 m-0 team-info-items-text'>Cheif EV Engineer.</p>
-                </div>
-                <div className='team-info-items'>
-                    <div className='team-info-items-img'>
-                        <img src={pradyut} alt="pradyut" height='100%' width='100%' />
-                    </div>
-                    <h5 className='fw-semibold team-info-items-title'> Pradyut Nandi</h5>
-                    <p className='p-0 m-0 team-info-items-text'>Commercial ev engineer</p>
-                </div>
-                <div className='team-info-items'>
-                    <div className='team-info-items-img'>
-                        <img src={anuradha} alt="anuradha" height='100%' width='100%' />
-                    </div>
-                    <h5 className='fw-semibold team-info-items-title'>Anuradha Maiti</h5>
-                    <p className='p-0 m-0 team-info-items-text'>Commercial ev engineer</p>
-                </div>
-
-                <div className='team-info-items'>
-                    <div className='team-info-items-img'>
-                        <img src={pradyut} alt="pradyut" height='100%' width='100%' />
-                    </div>
-                    <h5 className='fw-semibold team-info-items-title'> Arun Dey</h5>
-                    <p className='p-0 m-0 team-info-items-text'>Commercial Engineer</p>
-                </div>
-            </div> */}
         </section>
     )
 }
