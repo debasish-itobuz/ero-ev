@@ -29,7 +29,7 @@ function Navbar() {
                             <Link to='/product' className="nav-link">Product</Link>
                         </li>
                         <li className="nav-item nav-li ps-3 ps-lg-0">
-                            <Link to ='/' className="nav-link">Contact</Link>
+                            <Link to ='/contact' className="nav-link">Contact</Link>
                         </li>
                         <li className="nav-item nav-li ps-3 ps-lg-0">
                             <Link to='/' className="nav-link">Press Release</Link>

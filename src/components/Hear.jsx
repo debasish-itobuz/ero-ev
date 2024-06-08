@@ -2,7 +2,8 @@ import React from 'react'
 import Button from './Button'
 import man from '../images/home/hear/man.png'
 
-const Hear = () => {
+
+const Hear = ({ requireBtn = true }) => {
     return (
         <section className="hear screenSize p-2 p-md-3 overflow-hidden position-relative ">
             <div className="hear-content d-flex flex-column-reverse flex-md-row  gap-3 align-items-end justify-content-between">
@@ -23,7 +24,7 @@ const Hear = () => {
                     achieve that goal. Thank you for taking the time to connect with us!
                 </p>
             </div>
-            <Button title={"Let's Talk"} customClasses={"d-flex flex-row align-items-center w-fit hear-info-button z-3 border-0 position-absolute end-50"} />
+            <Button title={"Let's Talk"} customClasses={`${requireBtn ? "" : "d-none"} d-flex flex-row align-items-center w-fit hear-info-button z-3 border-0 position-absolute end-50`} />
 
         </section>
     )
