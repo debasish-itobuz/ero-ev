@@ -1,0 +1,255 @@
+.question {
+    width: 95%;
+    margin-top: 0.3rem;
+    padding: 0.5rem;
+
+    @media (min-width: 768px) {
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 0 1rem;
+        gap: 3rem;
+    }
+
+    @media (min-width: 1400px) {
+        margin-top: 3rem;
+        padding: 0 2rem;
+    }
+
+    @media (min-width: 1900px) {
+        margin-top: 4rem;
+        padding: 0;
+        gap: 5.4rem;
+    }
+
+    &-content {
+        
+        @media (min-width: 768px) {
+            width: 46rem;
+        }
+
+        @media (min-width: 1440px) {
+            width: 33rem;
+        }
+
+        @media (min-width: 1900px) {
+            width: 36rem;
+        }
+
+        &-info {
+            background: var(--green);
+            padding-bottom: 0.3rem;
+
+            @media (min-width: 768px) {
+                padding-bottom: 1rem;
+            }
+
+            @media (min-width: 1024px) {
+                padding-bottom: 2rem;
+            }
+
+            @media (min-width: 1440px) {
+                padding-bottom: 3rem;
+            }
+
+            @media (min-width: 1900px) {
+                padding-bottom: 4.6rem;
+            }
+
+            &-text {
+                font-size: 15px;
+                color: var(--deep-black);
+                width: 13rem;
+                margin-left: 1rem;
+
+                @media (min-width: 768px) {
+                    font-size: 17px;
+                }
+
+                @media (min-width: 1024px) {
+                    font-size: 20px;
+                    margin-left: 2rem;
+                }
+
+                @media (min-width: 1400px) {
+                    font-size: 22px;
+                    margin-left: 3rem;
+                }
+
+                @media (min-width: 1900px) {
+                    font-size: 24px;
+                    margin-left: 3.4rem;
+                }
+            }
+
+            &-img {
+                img {
+                    @media (min-width: 1024px) {
+                        height: 130px;
+                        width: 200px;
+                    }
+
+                    @media (min-width: 1900px) {
+                        height: 192px;
+                        width: 283px;
+                    }
+                }
+            }
+
+            &-heading {
+                font-size: 30px;
+                line-height: 34px;
+                width: 13rem;
+                color: var(--deep-black);
+                margin-left: 1rem;
+
+                @media (min-width: 768px) {
+                    font-size: 39px;
+                    line-height: 43px;
+                }
+
+                @media (min-width: 1024px) {
+                    font-size: 45px;
+                    line-height: 49px;
+                    width: 15rem;
+                    margin-left: 2rem;
+                }
+
+                @media (min-width: 1400px) {
+                    font-size: 56px;
+                    line-height: 58px;
+                    width: 18rem;
+                    margin-left: 3rem;
+                }
+
+                @media (min-width: 1900px) {
+                    font-size: 70px;
+                    line-height: 71px;
+                    width: 22rem;
+                    margin-left: 3.4rem;
+                }
+            }
+        }
+
+        &-text {
+            margin-top: 1rem;
+            font-size: 15px;
+            line-height: 22px;
+
+            @media (min-width: 768px) {
+                font-size: 16px;
+                line-height: 22px;
+                margin-top: 2rem;
+            }
+
+            @media (min-width: 1024px) {
+                font-size: 20px;
+                line-height: 28px;
+                margin-top: 3rem;
+                width: 27rem;
+            }
+
+            @media (min-width: 1400px) {
+                font-size: 22px;
+                line-height: 32px;
+                margin-top: 4rem;
+            }
+
+            @media (min-width: 1900px) {
+                font-size: 24px;
+                line-height: 41px;
+                margin-top: 6.5rem;
+                width: 34rem;
+            }
+        }
+    }
+
+    &-info {
+        width: 100%;
+
+        &-item {
+            max-height: 20rem;
+
+            @media (min-width: 768px) {
+                max-height: 23.8rem;
+            }
+
+            @media (min-width: 1024px) {
+                max-height: 32rem;
+            }
+
+            @media (min-width: 1440px) {
+                max-height: 37rem;
+            }
+
+            @media (min-width: 1900px) {
+                max-height: 50.9rem;
+            }
+        }
+    }
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8'/%3E%3C/svg%3E");
+}
+
+button.accordion-button:focus {
+    color: black;
+    box-shadow: none;
+    outline: none;
+}
+
+.accordion-header .accordion-button {
+    font-size: 16px;
+    background-color: #f5f5f6;
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 24px;
+    }
+
+    @media (min-width: 1440px) {
+        font-size: 28px;
+    }
+
+    @media (min-width: 1900px) {
+        font-size: 38px;
+    }
+}
+
+.accordion-body {
+    font-size: 15px;
+
+    @media (min-width: 768px) {
+        font-size: 17px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 20px;
+        margin-left: 2rem;
+    }
+
+    @media (min-width: 1440px) {
+        font-size: 22px;
+    }
+
+    @media (min-width: 1900px) {
+        font-size: 24px;
+        margin-left: 4rem;
+    }
+}
+
+.accordion-item {
+    background-color: #f5f5f6;
+    border: 0;
+    border-bottom: 1px;
+}

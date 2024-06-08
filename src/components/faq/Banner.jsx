@@ -1,5 +1,5 @@
 import React from "react";
-import car from "../../images/faq/car.png";
+import car from "../../images/faq/banner/car.png";
 
 export default function Banner() {
   return (
